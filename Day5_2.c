@@ -1,0 +1,13 @@
+/*
+Day 5(2) - Question 10
+Seconds to hours:minutes:seconds
+*/
+#include <stdio.h>
+
+int main()
+{
+    int s;
+    scanf("%d", &s);
+    printf("%d:%d:%d", s/3600, (s%3600)/60, s%60);
+    return 0;
+}
