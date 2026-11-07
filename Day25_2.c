@@ -1,0 +1,17 @@
+/*
+Day 25(2) - Question 50
+Indented decreasing stars
+*/
+#include <stdio.h>
+
+int main()
+{
+    int i, j;
+    for (i=0;i<5;i++)
+    {
+        for (j=0;j<i;j++)putchar(' ');
+        for (j=0;j<5-i;j++)putchar('*');
+        putchar('\n');
+    }
+    return 0;
+}
