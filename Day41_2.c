@@ -1,0 +1,14 @@
+/*
+Day 41(2) - Question 82
+Print each character new line
+*/
+#include <stdio.h>
+
+int main()
+{
+    char s[500];
+    int i;
+    fgets(s, sizeof s, stdin);
+    for (i=0;s[i]&&s[i]!='\n';i++)printf("%c\n", s[i]);
+    return 0;
+}
